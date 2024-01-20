@@ -1,0 +1,74 @@
+.whiteVariationRectangleChild {
+  width: 125px;
+  position: relative;
+  background: linear-gradient(180deg, #014762, #448e1f);
+  height: 1121px;
+  display: none;
+}
+.whiteVariation1 {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.dataManagement1Icon,
+.dataManagement2Icon,
+.dataManagement3Icon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.dataManagement1Icon,
+.dataManagement2Icon {
+  width: 50px;
+  height: 50px;
+}
+.dataManagement3Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.whiteVariationRectangleInner {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-mini);
+}
+.dataManagement4Icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.inputFrame,
+.whiteVariationRectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-2xl);
+}
+.whiteVariationRectangle {
+  height: 1121px;
+  margin: 0 !important;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: -41px;
+  left: 0;
+  background: linear-gradient(180deg, #014762, #448e1f);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-27xl) var(--padding-11xl) var(--padding-480xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-51xl);
+}
